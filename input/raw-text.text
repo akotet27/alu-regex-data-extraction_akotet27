@@ -1,0 +1,109 @@
+=== CUSTOMER SUPPORT SYSTEM LOG ===
+Generated: 2025-05-14 | Version: 2.3.1
+Source: External API Dump | Status: RAW UNFILTERED
+
+--- TICKET #4521 ---
+Date: 14/05/2025 at 14:32
+Customer: John Doe
+Email: john.doe@gmail.com
+Alternate Email: j.doe@alumni.alueducation.com
+Phone: +1 (555) 012-3456
+Issue: Payment failed for order #8821
+Billing Card: 4111 1111 1111 1234
+Amount Charged: $150.00
+Assigned Staff: m.kamau@alueducation.com
+Reference URL: https://support.example.com/tickets/4521
+Status: OPEN
+
+--- TICKET #4522 ---
+Date: 14/05/2025 at 15:10
+Customer: Amina Njeri
+Email: amina.njeri@yahoo.com
+Phone: +250 788 123 456
+Issue: Cannot access student portal
+Portal URL: https://portal.alueducation.com/login
+Billing Card: 5111-1111-1111-2345
+Amount Due: $75.50
+Assigned Staff: p.staff@si.alueducation.com
+Status: IN PROGRESS
+
+--- TICKET #4523 ---
+Date: 15/05/2025 at 09:15
+Customer: James Osei
+Email: james.osei@outlook.com
+Phone: (555) 987-6543
+Issue: Refund request for duplicate charge
+Card on file: 4222-2222-2222-2222
+Refund Amount: £200.00
+Assigned Staff: r.tutor@alueducation.com
+Meeting scheduled at: 10:30 AM
+Follow-up call: 14:00
+Reference: https://billing.example.org/refunds/221
+Status: PENDING
+
+--- TICKET #4524 ---
+Date: 15/05/2025 at 11:47
+Customer: Sara Mensah
+Email: sara.mensah@student.alueducation.com
+Phone: +44 20 7946 0123
+Issue: Course materials not loading
+Affected page: https://www.learn.alueducation.com/courses/cs101
+Card: 3714 496353 98431
+Amount: €120.00
+Assigned Staff: k.admin@alueducation.com
+Deadline reminder at: 11:59 PM
+Status: OPEN
+
+--- SOCIAL MEDIA MONITORING FEED ---
+Date: 15/05/2025 | Source: Twitter/X API
+
+Post 1 - @user_amara:
+"Just finished my finals at ALU! So proud #ALUGrad #ProudAlumni
+#AfricanLeaders check us out at https://www.alueducation.com"
+Time posted: 08:15 AM
+
+Post 2 - @techguy_rw:
+"Great workshop today on #Python and #RegexProgramming!
+Slides at https://slides.techworkshop.io/regex2025
+Contact: techguy@devmail.com | Phone: +250 722 456 789"
+Time posted: 2:30 PM
+
+Post 3 - @news_africa:
+"Breaking: New scholarship announced #Scholarship #ALU2025
+Details: https://news.alueducation.com/scholarships
+Apply by sending email to: scholarships@alueducation.com"
+Time posted: 17:45
+
+--- HTML CONTENT EXTRACTED FROM PORTAL ---
+
+<div class="ticket-container">
+  <h1>Support Dashboard</h1>
+  <p>Welcome back, <strong>Admin</strong></p>
+  <a href="https://portal.alueducation.com/dashboard">Go to Dashboard</a>
+  <img src="https://cdn.example.com/logo.png" alt="ALU Logo">
+  <input type="email" placeholder="Enter your email">
+  <br/>
+</div>
+
+--- FLAGGED SUSPICIOUS SUBMISSIONS ---
+The following were submitted through the contact form and flagged:
+
+Submission A:
+email: hacker@site.com'; DROP TABLE users;--
+card: 9999 9999 9999 9999
+url: javascript:alert(document.cookie)
+note: <script>alert('xss')</script>
+
+Submission B:
+email: fake@@alueducation.com
+card: 1234 5678 9012 3456
+phone: 000-000-0000
+url: data:text/html,<script>document.write('hacked')</script>
+
+Submission C:
+email: notanemail@
+card: 4111 1111 1111
+url: file:///etc/passwd
+note: ../../../etc/shadow
+
+--- END OF LOG ---
