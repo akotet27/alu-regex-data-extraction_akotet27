@@ -1,0 +1,143 @@
+{
+  "emails": {
+    "alu_official": [
+      "m.kamau@alueducation.com",
+      "r.tutor@alueducation.com",
+      "k.admin@alueducation.com",
+      "scholarships@alueducation.com"
+    ],
+    "alu_alumni": [
+      "j.doe@alumni.alueducation.com"
+    ],
+    "alu_si": [
+      "p.staff@si.alueducation.com"
+    ],
+    "other": [
+      "john.doe@gmail.com",
+      "amina.njeri@yahoo.com",
+      "james.osei@outlook.com",
+      "sara.mensah@student.alueducation.com",
+      "techguy@devmail.com"
+    ],
+    "rejected": [
+      {
+        "value": "hacker@site.com",
+        "reason": "unsafe-surrounding-context"
+      }
+    ]
+  },
+  "credit_cards": {
+    "masked": [
+      "**** **** **** 8431"
+    ],
+    "count": 1,
+    "rejected": [
+      {
+        "value": "REDACTED",
+        "reason": "invalid-luhn-or-length"
+      },
+      {
+        "value": "REDACTED",
+        "reason": "invalid-luhn-or-length"
+      },
+      {
+        "value": "REDACTED",
+        "reason": "invalid-luhn-or-length"
+      },
+      {
+        "value": "REDACTED",
+        "reason": "invalid-luhn-or-length"
+      },
+      {
+        "value": "REDACTED",
+        "reason": "invalid-luhn-or-length"
+      }
+    ]
+  },
+  "urls": {
+    "valid": [
+      "https://support.example.com/tickets/4521",
+      "https://portal.alueducation.com/login",
+      "https://billing.example.org/refunds/221",
+      "https://www.learn.alueducation.com/courses/cs101",
+      "https://www.alueducation.com",
+      "https://slides.techworkshop.io/regex2025",
+      "https://news.alueducation.com/scholarships",
+      "https://portal.alueducation.com/dashboard",
+      "https://cdn.example.com/logo.png"
+    ],
+    "rejected": []
+  },
+  "phones": [
+    "(555) 987-6543",
+    "+1 (555) 012-3456",
+    "+250 722 456 789",
+    "+250 788 123 456",
+    "+44 20 7946 0123"
+  ],
+  "times": {
+    "12hour": [
+      "10:30 AM",
+      "11:59 PM",
+      "08:15 AM",
+      "2:30 PM"
+    ],
+    "24hour": [
+      "14:32",
+      "15:10",
+      "09:15",
+      "14:00",
+      "11:47",
+      "17:45"
+    ]
+  },
+  "currency": [
+    "$150.00",
+    "$75.50",
+    "\u00a3200.00",
+    "\u20ac120.00"
+  ],
+  "hashtags": [
+    "#ALUGrad",
+    "#ProudAlumni",
+    "#AfricanLeaders",
+    "#Python",
+    "#RegexProgramming",
+    "#Scholarship",
+    "#ALU2025"
+  ],
+  "html_tags": {
+    "safe": [
+      "<div class=\"ticket-container\">",
+      "<h1>",
+      "</h1>",
+      "<p>",
+      "<strong>",
+      "</strong>",
+      "</p>",
+      "<a href=\"https://portal.alueducation.com/dashboard\">",
+      "</a>",
+      "<img src=\"https://cdn.example.com/logo.png\" alt=\"ALU Logo\">",
+      "<input type=\"email\" placeholder=\"Enter your email\">",
+      "</div>"
+    ],
+    "flagged": [
+      {
+        "value": "<script>",
+        "reason": "potentially-unsafe-tag"
+      },
+      {
+        "value": "</script>",
+        "reason": "potentially-unsafe-tag"
+      },
+      {
+        "value": "<script>",
+        "reason": "potentially-unsafe-tag"
+      },
+      {
+        "value": "</script>",
+        "reason": "potentially-unsafe-tag"
+      }
+    ]
+  }
+}
