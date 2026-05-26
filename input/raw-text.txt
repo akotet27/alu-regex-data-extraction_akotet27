@@ -9,7 +9,7 @@ Email: john.doe@gmail.com
 Alternate Email: j.doe@alumni.alueducation.com
 Phone: +1 (555) 012-3456
 Issue: Payment failed for order #8821
-Billing Card: 4111 1111 1111 1234
+Billing Card: 4111 1111 1111 1111
 Amount Charged: $150.00
 Assigned Staff: m.kamau@alueducation.com
 Reference URL: https://support.example.com/tickets/4521
@@ -22,7 +22,7 @@ Email: amina.njeri@yahoo.com
 Phone: +250 788 123 456
 Issue: Cannot access student portal
 Portal URL: https://portal.alueducation.com/login
-Billing Card: 5111-1111-1111-2345
+Billing Card: 5500-0055-5555-5559
 Amount Due: $75.50
 Assigned Staff: p.staff@si.alueducation.com
 Status: IN PROGRESS
@@ -33,7 +33,7 @@ Customer: James Osei
 Email: james.osei@outlook.com
 Phone: (555) 987-6543
 Issue: Refund request for duplicate charge
-Card on file: 4222-2222-2222-2222
+Card on file: 4012 8888 8888 1881
 Refund Amount: £200.00
 Assigned Staff: r.tutor@alueducation.com
 Meeting scheduled at: 10:30 AM

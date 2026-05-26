@@ -20,39 +20,19 @@
       "techguy@devmail.com"
     ],
     "rejected": [
-      {
-        "value": "hacker@site.com",
-        "reason": "unsafe-surrounding-context"
-      }
+      "hacker@site.com"
     ]
   },
   "credit_cards": {
+    "count": 4,
     "masked": [
-      "**** **** **** 8431"
+      "**** **** **** 1111",
+      "**** **** **** 5559",
+      "**** **** **** 1881",
+      "**** ****** *8431"
     ],
-    "count": 1,
-    "rejected": [
-      {
-        "value": "REDACTED",
-        "reason": "invalid-luhn-or-length"
-      },
-      {
-        "value": "REDACTED",
-        "reason": "invalid-luhn-or-length"
-      },
-      {
-        "value": "REDACTED",
-        "reason": "invalid-luhn-or-length"
-      },
-      {
-        "value": "REDACTED",
-        "reason": "invalid-luhn-or-length"
-      },
-      {
-        "value": "REDACTED",
-        "reason": "invalid-luhn-or-length"
-      }
-    ]
+    "rejected_count": 2,
+    "security_warnings": []
   },
   "urls": {
     "valid": [
@@ -66,7 +46,8 @@
       "https://portal.alueducation.com/dashboard",
       "https://cdn.example.com/logo.png"
     ],
-    "rejected": []
+    "rejected_count": 0,
+    "security_warnings": []
   },
   "phones": [
     "(555) 987-6543",
@@ -94,8 +75,8 @@
   "currency": [
     "$150.00",
     "$75.50",
-    "\u00a3200.00",
-    "\u20ac120.00"
+    "£200.00",
+    "€120.00"
   ],
   "hashtags": [
     "#ALUGrad",
@@ -122,22 +103,22 @@
       "</div>"
     ],
     "flagged": [
-      {
-        "value": "<script>",
-        "reason": "potentially-unsafe-tag"
-      },
-      {
-        "value": "</script>",
-        "reason": "potentially-unsafe-tag"
-      },
-      {
-        "value": "<script>",
-        "reason": "potentially-unsafe-tag"
-      },
-      {
-        "value": "</script>",
-        "reason": "potentially-unsafe-tag"
-      }
+      "<script>",
+      "</script>",
+      "<script>",
+      "</script>"
+    ],
+    "security_warnings": [
+      "Dangerous tag blocked: <script>",
+      "Dangerous tag blocked: </script>",
+      "Dangerous tag blocked: <script>",
+      "Dangerous tag blocked: </script>"
     ]
-  }
+  },
+  "security_warnings": [
+    "Dangerous tag blocked: <script>",
+    "Dangerous tag blocked: </script>",
+    "Dangerous tag blocked: <script>",
+    "Dangerous tag blocked: </script>"
+  ]
 }
